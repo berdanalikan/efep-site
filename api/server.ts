@@ -9,7 +9,7 @@
 // @ts-ignore - generated at build time
 import server from "../dist/server/server.js";
 
-export const config = { runtime: "nodejs20.x" };
+export const config = { runtime: "nodejs" };
 
 export default function handler(request: Request): Promise<Response> {
   return (server as { fetch: (req: Request) => Promise<Response> }).fetch(request);
