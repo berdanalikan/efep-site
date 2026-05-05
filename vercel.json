@@ -1,6 +1,11 @@
 {
   "buildCommand": "vite build",
   "outputDirectory": "dist/client",
+  "functions": {
+    "api/server.ts": {
+      "includeFiles": "dist/server/**"
+    }
+  },
   "redirects": [
     { "source": "/admin/login", "destination": "/admin", "permanent": true }
   ],
