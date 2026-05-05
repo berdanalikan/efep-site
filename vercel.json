@@ -1,3 +1,10 @@
 {
-  "redirects": [{ "source": "/admin/login", "destination": "/admin", "permanent": true }]
+  "buildCommand": "vite build",
+  "outputDirectory": "dist/client",
+  "redirects": [
+    { "source": "/admin/login", "destination": "/admin", "permanent": true }
+  ],
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/api/server" }
+  ]
 }
