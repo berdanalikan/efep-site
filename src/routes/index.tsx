@@ -16,7 +16,7 @@ export const Route = createFileRoute("/")({
       {
         name: "description",
         content:
-          "EFEP Derneği kurucu sürecinden ilk haberdar olanlar arasında yer almak için ön kayıt oluşturun.",
+          "EFEP Derneği kuruluş sürecinden ilk haberdar olanlar arasında yer almak için ön kayıt oluşturun.",
       },
       { property: "og:title", content: "EFEP Derneği — Ön Kayıt" },
       {
@@ -46,7 +46,7 @@ function EfepPage() {
             className="mx-auto max-h-40 object-contain"
           />
           <h1 className="mt-8 text-3xl font-bold leading-tight tracking-tight sm:text-4xl" style={{ color: "var(--efep)" }}>
-            EFEP Derneği Kurucu Sürecinden İlk Haberdar Olanlar Arasında Yer Almak İçin
+            EFEP Derneği Kuruluş Sürecinden İlk Haberdar Olanlar Arasında Yer Almak İçin
           </h1>
           <p className="mt-4 text-base text-muted-foreground sm:text-lg">
             Bilgilerinizi paylaşın, dernek faaliyetleri başladığında sizinle iletişime geçelim.
